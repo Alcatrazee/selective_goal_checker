@@ -1,0 +1,7 @@
+<library path="libselective_goal_checker">
+  <class name="selective_goal_checker::SelectiveGoalChecker"
+         type="selective_goal_checker::SelectiveGoalChecker"
+         base_class_type="nav2_core::GoalChecker">
+    <description>GoalChecker plugin that only considers selective dir errors.</description>
+  </class>
+</library>
