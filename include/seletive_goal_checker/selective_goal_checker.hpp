@@ -32,7 +32,7 @@ namespace selective_goal_checker
                 geometry_msgs::msg::Twist & vel_tolerance) override;
             double getYawFromPose(const geometry_msgs::msg::Pose & pose);
         protected:
-            double xy_goal_tolerance_, yaw_goal_tolerance_,x_tolerance_;
+            double xy_goal_tolerance_, yaw_goal_tolerance_,x_tolerance_,y_tolerance_;
             bool stateful_, check_xy_ ,check_x_ , check_v_, check_xy_dist_;
             // Cached squared xy_goal_tolerance_
             double xy_goal_tolerance_sq_;
